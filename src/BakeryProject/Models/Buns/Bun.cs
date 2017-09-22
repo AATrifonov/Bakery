@@ -70,7 +70,7 @@ namespace BakeryProject.Models.Buns
             Limitation = limitation;
         }
 
-        public virtual decimal? getPriceCurrent()
+        public virtual decimal? GetPriceCurrent()
         {
             if (DateTime.Now > TimeCreate.AddHours(LifeTime))
             {

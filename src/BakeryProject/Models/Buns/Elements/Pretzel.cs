@@ -11,9 +11,8 @@ namespace BakeryProject.Models.Buns.Elements
 
         }
 
-        public override decimal? getPriceCurrent()
+        public override decimal? GetPriceCurrent()
         {
-
             if (DateTime.Now > TimeCreate.AddHours(LifeTime))
             {
                 return null;

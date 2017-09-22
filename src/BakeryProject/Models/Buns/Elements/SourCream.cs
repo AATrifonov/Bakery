@@ -9,7 +9,7 @@ namespace BakeryProject.Models.Buns.Elements
             : base(name, price, timeCreate, lifeTime, limitation)
         {
         }
-        public override decimal? getPriceCurrent()
+        public override decimal? GetPriceCurrent()
         {
 
             if (DateTime.Now > TimeCreate.AddHours(LifeTime))

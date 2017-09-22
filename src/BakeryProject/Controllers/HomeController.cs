@@ -25,7 +25,7 @@ namespace BakeryProject.Controllers
                 Number = 1,
                 Name = b1.Name,
                 Price = b1.Price,
-                PriceCurrent = b1.getPriceCurrent(),
+                PriceCurrent = b1.GetPriceCurrent(),
                 PriceForecast = 0,
                 Period = 0
             });
@@ -34,7 +34,7 @@ namespace BakeryProject.Controllers
                 Number = 2,
                 Name = b2.Name,
                 Price = b2.Price,
-                PriceCurrent = b2.getPriceCurrent(),
+                PriceCurrent = b2.GetPriceCurrent(),
                 PriceForecast = 0,
                 Period = 0
             });
@@ -43,7 +43,7 @@ namespace BakeryProject.Controllers
                 Number = 3,
                 Name = b3.Name,
                 Price = b3.Price,
-                PriceCurrent = b3.getPriceCurrent(),
+                PriceCurrent = b3.GetPriceCurrent(),
                 PriceForecast = 0,
                 Period = 0
             });
@@ -61,7 +61,7 @@ namespace BakeryProject.Controllers
                 Number = 5,
                 Name = b5.Name,
                 Price = b5.Price,
-                PriceCurrent = b5.getPriceCurrent(),
+                PriceCurrent = b5.GetPriceCurrent(),
                 PriceForecast = 0,
                 Period = 0
             });
